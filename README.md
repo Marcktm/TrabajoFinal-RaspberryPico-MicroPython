@@ -199,10 +199,10 @@ Se agrego un display olded con su resptectiva libreria guardada en la memoria de
 Para esto se hizo uso de la segunda linea del procesador para que realize esta tarea en segundo plano atravez de una funcion ("estadoOled()") junto con la librebria "_thread". Tambien se definio una función llamada ("open_pbm()") que lo que nos hace es cargar un logo  en formato PBM-"Portable Bit Map" que previamente se guardo en la memoria de la raspberry pi pico en una carpeta llamada images.
 
 ### Imagen de las nuevas librerias y la carpeta dentro de la Raspberry pi pico
-![imagen 6](images\imagen-v3.jpg)
+![imagen 6](.\images\imagen-v3.jpg)
 
 ### Imagen del logo guardado
-![imagen 7](images\imagen2-v3.jpg)
+![imagen 7](.\images\imagen2-v3.jpg)
 
 ### CODIGO VERSION FINAL
 
@@ -334,9 +334,9 @@ while True:
 
 ### IMAGENES DEL PROYECTO
 
-![imagen 8](images\1ERMENSAJE.jpeg)
+![imagen 8](.\images\1ERMENSAJE.jpeg)
 
-![imagen 9](images\2DOmensaje.jpeg)
+![imagen 9](.\images\2DOmensaje.jpeg)
 
 ### SUGERENCIAS:
 Las librerias nuevas usadas se encuentran en la carpeta (CodigoVersiones/archivosEXTRA), tambien le sugiero leerlo desde VisualStudioCode para ver mejor las imagenes, creo que hay un gift que desde github no se ve.
