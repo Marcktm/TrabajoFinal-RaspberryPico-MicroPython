@@ -189,13 +189,14 @@ while True:
 [VIDEO DEL CIRCUITO-v2](https://drive.google.com/file/d/1J3EBnQV_WdYTRgEacSEGX4CIRgN4vGkW/view?usp=share_link "estacion meterorologica v2")
 
 ---
-## Version-3-(VersionFnial):
+## Version-3-(VersionFinal):
 El display muestra la temperatura y humedad, y al llegar a 30°C o mas la temperatura se prende un led rojo avisando esto y al llegar al 70% de humedad empieza a sonar un buzzer avisandonos lo ocurrido el cual al apretar un pulsador lo detiene por 10 segundos aunque lo ideal seria a mi criterio por 30 minutos (*en el video para mostrar su funcionamiento se lo hace con un timer de 10 segundos, pero en caso de hacerlo por 30min llevaria un timer de 1800seg o 1800000 mseg aunque se tendrian que usar timers anidados*),
 pero para no olvidarnos que seguimos en esos valores el display nos muestra un mensaje por 3seg auque no suene la alarma.
 
 ### Actualización de V2:
-    "Se agrego un display olded con su resptectiva libreria guardada en la memoria de la raspberry pí pico que nos muestra un mensaje que no hay nadie cerca y si alguien se acerca, atravez de un sensor PIR cambia el mensaje por un logo de MircroPython.
-    Para esto se hizo uso de la segunda linea del procesador para que realize esta tarea en segundo plano atravez de una funcion ("estadoOled()") junto con la librebria "_thread". Tambien se definio una función llamada ("open_pbm()") que lo que nos hace es cargar un logo  en formato PBM-"Portable Bit Map" que previamente se guardo en la memoria de la raspberry pi pico en una carpeta llamada images"
+Se agrego un display olded con su resptectiva libreria guardada en la memoria de la raspberry pí pico que nos muestra un mensaje que no hay nadie cerca y si alguien se acerca, atravez de un sensor PIR cambia el mensaje por un logo de MircroPython.
+
+Para esto se hizo uso de la segunda linea del procesador para que realize esta tarea en segundo plano atravez de una funcion ("estadoOled()") junto con la librebria "_thread". Tambien se definio una función llamada ("open_pbm()") que lo que nos hace es cargar un logo  en formato PBM-"Portable Bit Map" que previamente se guardo en la memoria de la raspberry pi pico en una carpeta llamada images.
 
 ### Imagen de las nuevas librerias y la carpeta dentro de la Raspberry pi pico
 ![imagen 6](images\imagen-v3.jpg)
@@ -338,8 +339,9 @@ while True:
 ![imagen 9](images\2DOmensaje.jpeg)
 
 ### SUGERENCIAS:
-    "Las librerias nuevas usadas se encuentran en la carpeta (CodigoVersiones/archivosEXTRA), tambien le sugiero leerlo desde VisualStudioCode para ver mejor las imagenes, creo que hay un gift que desde github no se ve.
-    Acontinuacion el link al video del funcionamiento completo"
+Las librerias nuevas usadas se encuentran en la carpeta (CodigoVersiones/archivosEXTRA), tambien le sugiero leerlo desde VisualStudioCode para ver mejor las imagenes, creo que hay un gift que desde github no se ve.
+
+Acontinuacion el link al video del funcionamiento completo
 
 ### Conceptos Utilizados:
     * Entradas y Salidas Digitales
